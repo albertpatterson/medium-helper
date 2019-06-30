@@ -11,7 +11,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha', 'karma-typescript'],
+    frameworks: ['mocha', 'sinon', 'karma-typescript'],
 
 
     // list of files / patterns to load in the browser
@@ -25,8 +25,24 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors:
     // https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {'**/*.ts': 'karma-typescript'},
+    preprocessors: {
+      '**/*.ts': 'karma-typescript',
+      '**/*.html': ['html2js'],
+    },
 
+    html2JsPreprocessor: {
+      // strip this from the file path
+      stripPrefix: 'public/',
+
+      // prepend this to the file path
+      prependPrefix: 'served/',
+
+      // or define a custom transform function
+      processPath: function(filePath) {
+        // Drop the file extension
+        return filePath.replace(/\.html$/, '');
+      }
+    },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
