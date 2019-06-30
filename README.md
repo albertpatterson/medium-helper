@@ -1,10 +1,10 @@
 # Typescript-Chrome-Extension-Seed
-a seed for a chrome extension using Typescript
-<br>
-[![Build Status](https://travis-ci.com/albertpatterson/typescript-chrome-extension-seed.svg?branch=master)](https://travis-ci.com/albertpatterson/typescript-chrome-extension-seed)
+a chrome extension for improving medium<br>
+[![Build Status](https://travis-ci.com/albertpatterson/medium-helper.svg?branch=master)](https://travis-ci.com/albertpatterson/medium-helper)
 
 ## Usage
-Fork this repo and use it as a starting point for a chrome extension
+develop locally:
+install from the web store:
 
 ## License
 This project is licensed under the MIT License - see the [license](LICENSE) file for details
