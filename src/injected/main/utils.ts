@@ -22,14 +22,15 @@ export function removeArticle(article: HTMLElement): void {
 
 export function throttle(fcn: () => void, delay: number) {
   let ready = true;
-  let cleanup: number;
+  let cleanup: number|null;
 
   return () => {
     if (cleanup) {
       clearInterval(cleanup);
+      cleanup = null;
     }
     if (!ready) {
-      cleanup = setTimeout(fcn, delay);
+      cleanup = window.setTimeout(fcn, delay);
       return;
     }
     fcn();
