@@ -217,7 +217,6 @@ class TaskFactory {
     const taskName = this._makeTaskName('compile');
     const task = setup(this.gulp.series, this.gulp.parallel);
     this.gulp.task(taskName, task);
-    console.log(this);
     this.tasks.compile.push(taskName);
     return taskName;
   }
