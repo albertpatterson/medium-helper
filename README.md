@@ -4,7 +4,7 @@ a chrome extension for improving medium<br>
 
 ## Usage
 develop locally:
-install from the web store:
+install from the web store: https://chrome.google.com/webstore/detail/medium-helper/kajnoobkhdepeaphgdnikmpdlikfgdjl
 
 ## License
 This project is licensed under the MIT License - see the [license](LICENSE) file for details
