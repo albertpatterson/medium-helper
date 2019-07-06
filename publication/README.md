@@ -5,6 +5,7 @@ Create a copy of the optimized code using ./build.sh, which will clone the git r
 ```
 $ ./build.sh
 ```
+The generated code will be under medium-helper/dist/
 
 ## Operating system and build environment requirements
 from https://npme.npmjs.com/docs/up-and-running/requirements.html
