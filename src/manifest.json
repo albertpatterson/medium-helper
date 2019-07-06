@@ -1,34 +1,24 @@
 {
   "manifest_version": 2,
-  "name": "chrome-extension-seed",
+  "name": "medium-helper",
   "version": "1.0.0",
-  "description": "a basic seed for a chrome extension",
+  "description": "a helper to improve medium.com",
   "browser_action": {
-    "default_title": "Chrome Extension Seed",
-    "default_popup": "popup/popup.html",
+    "default_title": "Medium Helper",
     "default_icon": "icon.png"
-  },
-  "background": {
-    "scripts": [
-      "background/background-bundle.js"
-    ],
-    "persistent": false
   },
   "commands": {},
   "content_scripts": [
     {
       "matches": [
-        "https://*/*",
-        "http://*/*"
+        "https://medium.com/*",
+        "http://medium.com/*"
       ],
       "js": [
         "injected/injected-bundle.js"
-      ],
-      "css": [
-        "injected/injected-styles.css"
       ]
     }
   ],
-  "homepage_url": "https://github.com/albertpatterson/webpack-chrome-extension-seed",
+  "homepage_url": "https://github.com/albertpatterson/medium-helper",
   "permissions": []
 }
