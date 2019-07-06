@@ -5,7 +5,7 @@ a browser extension for improving medium<br>
 ## Usage
 ### Develop Locally:
 1) clone this repo
-2) npm intall
+2) npm install
 3) build
    1) npm run build to build unoptimized
    2) npm run build-prod to build optimized and create zip
