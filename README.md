@@ -17,7 +17,7 @@ a chrome extension for improving medium<br>
       2) click "Load Temporary Add-on"
       3) open the extension's directory and select any file inside the extension.
 
-###install from the web store: https://chrome.google.com/webstore/detail/medium-helper/kajnoobkhdepeaphgdnikmpdlikfgdjl
+### Install from the Web Store: https://chrome.google.com/webstore/detail/medium-helper/kajnoobkhdepeaphgdnikmpdlikfgdjl
 
 ## License
 This project is licensed under the MIT License - see the [license](LICENSE) file for details
