@@ -21,7 +21,7 @@ a browser extension for improving medium<br>
 
 ### Install from the Chrome Web Store: https://chrome.google.com/webstore/detail/medium-helper/kajnoobkhdepeaphgdnikmpdlikfgdjl
 
-### Install as Firefox Add-on: 
+### Install as Firefox Add-on: https://addons.mozilla.org/en-US/firefox/addon/albert-e-patterson/
 
 ## License
 This project is licensed under the MIT License - see the [license](LICENSE) file for details
