@@ -7,6 +7,12 @@
     "default_title": "Medium Helper",
     "default_icon": "icon.png"
   },
+  "background": {
+    "scripts": [
+      "background/background-bundle.js"
+    ],
+    "persistent": false
+  },
   "commands": {},
   "content_scripts": [
     {
@@ -20,5 +26,7 @@
     }
   ],
   "homepage_url": "https://github.com/albertpatterson/medium-helper",
-  "permissions": []
+  "permissions": [
+    "tabs"
+  ]
 }
